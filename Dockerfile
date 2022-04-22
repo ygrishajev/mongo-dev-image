@@ -1,4 +1,4 @@
-FROM mongo:4.2.1
+FROM mongo:5.0
 
 COPY initial-user.sh /docker-entrypoint-initdb.d/
 
